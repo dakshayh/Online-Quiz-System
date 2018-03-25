@@ -11,7 +11,7 @@ public void doPost(HttpServletRequest req,HttpServletResponse res)throws Servlet
 	PrintWriter pw=res.getWriter();
 try {
 Class.forName("com.mysql.jdbc.Driver");
-Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/project","root","prithvi");
+Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/project","root","akshay");
 
 try{
 	
