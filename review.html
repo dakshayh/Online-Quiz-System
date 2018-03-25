@@ -1,0 +1,54 @@
+<html>
+<head>
+<style>
+* {
+	margin:0;
+	padding:0;
+}
+html { 
+background: url(feed.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover; 
+-moz-background-size: cover; 
+-o-background-size: cover; 
+background-size: cover; 
+}
+
+#log {
+	position:absolute;
+	left:70px;
+	top:200px;
+	border-radius: 25px;
+     	background:#ffffff;
+    	padding: 20px;
+    	width:900px;
+    	height:140px;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+#word
+{
+	position:absolute;
+	top:40px;
+}
+
+#tb{
+float:right;
+padding:5px;
+}
+
+</style>
+</head>
+<body>
+<div id="log">
+<div id="word">
+ <h1><b>FEEDBACK</b></h1>
+</div>
+<div id="tb">
+<form action="http://localhost:8080/newproj/revw" method="post">
+<p>Username:<input type="text" name="uname" placeholder="Username"></p> <br>Your Feedback<br>
+<textarea name="comments" rows=4" cols="50" name="comments" placeholder="use not more than 30 words"></textarea><br><br>
+<input type="submit" value="SUBMIT" style="background-color:#ccffff;" >
+</form>
+</div>
+</div>
+</body>
+</html>

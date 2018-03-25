@@ -1,0 +1,145 @@
+<DOCTYPE HTML>
+<html>
+<head>
+<style>
+* {
+	margin:0;
+	padding:0;
+}
+#cent {
+	position:absolute;
+	left:200px;
+	top:120px;
+	border-radius: 25px;
+     	background:#ffffff;
+    	padding: 20px;
+    	width:900px;
+    	height:300px;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+html { 
+background: url(quiz.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover; 
+-moz-background-size: cover; 
+-o-background-size: cover; 
+background-size: cover; 
+}
+
+#header {
+	position:absolute;
+	left:300px;
+	top:10px;
+	border-radius: 25px;
+     	background:#ffffff;
+    	padding: 20px;
+    	width:700px;
+    	height:50px;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+#left {
+	position:absolute;
+	left:20px;
+	top:120px;
+	float:left;
+	border-radius: 25px;
+     	background:#ffffff;
+	padding: 20px;
+    	width:100px;
+    	height:90px;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+#ll
+{
+
+	position:absolute;
+	left:20px;
+	top:320px;
+	border-radius: 25px;
+     	background:#ffffff;
+	padding: 20px;
+    	width:100px;
+    	height:40px;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+#rc
+{
+	position:absolute;
+	left:1200px;
+	top:20px;
+	border-radius: 40px;
+     	background:#ffffff;
+	padding: 20px;
+    	width:90px;
+    	height:20px;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+a { color: inherit; }
+
+
+</style>
+<script>
+function mouseOver1() {
+    document.getElementById("demo1").style.color="blue";
+}
+
+function mouseOut1() {
+    document.getElementById("demo1").style.color = "black";
+}
+function mouseOver2() {
+    document.getElementById("demo2").style.color="blue";
+}
+
+function mouseOut2() {
+    document.getElementById("demo2").style.color = "black";
+}
+function mouseOver3() {
+    document.getElementById("demo3").style.color="blue";
+}
+
+function mouseOut3() {
+    document.getElementById("demo3").style.color = "black";
+}
+function mouseOver4() {
+    document.getElementById("demo4").style.color="blue";
+}
+
+function mouseOut4() {
+    document.getElementById("demo4").style.color = "black";
+}
+</script>
+</head>
+
+<body>
+<div id="header">
+<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Think Ahead<h1>
+</div>
+<div id="rc">
+<a href="login.html" style="text-decoration:none;"><h3>&nbsp;Log In</h3></a>
+</div>
+
+<div id="left">
+
+
+<a href="rules.html" style="text-decoration:none;"><h3 id="demo2" onmouseover="mouseOver2()" onmouseout="mouseOut2()">Rules <br><br></h3></a>
+<a href="http://localhost:8080/newproj/score.jsp" style="text-decoration:none;"><h3 id="demo4" onmouseover="mouseOver4()" onmouseout="mouseOut4()">Scores <br><br></h3></a>
+
+
+</div>
+
+<div id="ll">
+<a href="review.html" style="text-decoration:none;"><h3 id="demo1" onmouseover="mouseOver1()" onmouseout="mouseOut1()">Feedback</h3></a>
+</div>
+<div id="cent"><h3><i>Think you are smart enough to outsmart other players?<br><br>
+	Then you are at the right place.You may pose any questions based on the department to other user.<br><br>
+You have different fields where you can test your knowledge. <br><br>
+You can clear all your doubts in the <b>Rules</b> section in the left. <br><br>
+If you have any complaints please feel free to post in the <b>Review</b> section.<br>
+	 </i></h3></div>
+</body>
+</html>
