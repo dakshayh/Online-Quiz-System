@@ -15,7 +15,7 @@ try
 	{
 		Class.forName("com.mysql.jdbc.Driver");
 		try {
-			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/project","root","prithvi");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/project","root","akshay");
 			Statement stmt=con.createStatement();
 			ResultSet rs=stmt.executeQuery("select * from userqstn");
 			if(rs.next())
