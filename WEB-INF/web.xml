@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<web-app>
+    <servlet>
+        <servlet-name>usdb</servlet-name>
+        <servlet-class>usdb</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>usdb</servlet-name>
+        <url-pattern>/usdb</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+		<servlet-name>loginver</servlet-name>
+		<servlet-class>loginver</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>loginver</servlet-name>
+		<url-pattern>/loginver</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>revw</servlet-name>
+		<servlet-class>revw</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>revw</servlet-name>
+		<url-pattern>/revw</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>testing</servlet-name>
+		<servlet-class>testing</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>testing</servlet-name>
+		<url-pattern>/testing</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>qsubmit</servlet-name>
+		<servlet-class>qsubmit</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>qsubmit</servlet-name>
+		<url-pattern>/qsubmit</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>valida</servlet-name>
+		<servlet-class>valida</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>valida</servlet-name>
+		<url-pattern>/valida</url-pattern>
+	</servlet-mapping>
+	
+</web-app>     
