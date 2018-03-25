@@ -21,7 +21,7 @@ background-size: cover;
 <%@ page import="java.sql.*,javax.sql.*,java.io.*,javax.servlet.*,javax.servlet.http.*" %>
 <%
 		Class.forName("com.mysql.jdbc.Driver");
-		Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/project","root","prithvi");
+		Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/project","root","akshay");
 		Statement stmt=con.createStatement();
 		stmt.executeQuery("set @rowno=0");
 		try
