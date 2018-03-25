@@ -18,7 +18,7 @@ try
 	{
 		Class.forName("com.mysql.jdbc.Driver");
 		try {
-			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/project","root","prithvi");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/project","root","akshay");
 			Statement stmt=con.createStatement();
 			stmt.execute("insert into login values('"+fn+"','"+ln+"','"+un+"','"+ps+"',0,0)");
 			}catch(SQLException e){pw.print(e.toString() + ":user may already exist");}
