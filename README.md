@@ -1,3 +1,3 @@
 # Online-Quiz-System
 
-A Basic implementation of quiz system as a Web Technologies Project 
+Online Quiz System written in java and with the help of JDBC interface connecting Java programs with MySQL backend
